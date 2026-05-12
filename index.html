@@ -16,7 +16,7 @@
         <h1 class="text-2xl font-medium drop-shadow-lg">GREENDEN</h1>
 
         <div>
-            <div class="md:hidden">
+            <div id="menuicon" class="md:hidden cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -32,6 +32,22 @@
         </div>
     </nav>
 
+
+    <!-- Side Navbar for Mobile View -->
+    <section id="navbar" class="hidden bg-green-100 w-1/2 h-screen"
+        style="position: fixed;top: 0;right: 0;z-index: 20;">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer text-xl">X</p>
+        </div>
+
+        <!-- Menu Items -->
+        <ul class="flex flex-col gap-5 text-gray-600 p-5">
+            <li><a href="./index.html" class="hover:text-black hover:underline">Home</a></li>
+            <li><a href="./product.html" class="hover:text-black hover:underline">Products</a></li>
+            <li><a href="./contact.html" class="hover:text-black hover:underline">Contact</a></li>
+        </ul>
+    </section>
+
     <!--Header Section-->
     <section class="bg-green-100 p-4 md:p-10 flex justify-center">
         <div>
@@ -39,9 +55,13 @@
             <h2 class="text-3xl font-bold md:text-5xl mb-4 ">Plants for your Interior</h2>
 
             <div>
-                
-                <a href="./product.html" class="bg-black rounded p-2 text-white inline-block hover:cursor-pointer hover:transform hover:-translate-y-2">Shop now</a>
-                <button class="border border-black rounded p-2 hover:cursor-pointer hover:transform hover:-translate-y-2">Watch Video</button>
+
+                <a href="./product.html"
+                    class="bg-black rounded p-2 text-white inline-block hover:cursor-pointer hover:transform hover:-translate-y-2">Shop
+                    now</a>
+                <button
+                    class="border border-black rounded p-2 hover:cursor-pointer hover:transform hover:-translate-y-2">Watch
+                    Video</button>
             </div>
 
             <p class="text-gray-600 mt-4">160+ Plant Species | 100+ Clients</p>
@@ -112,9 +132,9 @@
                 <p class="text-gray-600">$19.99</p>
             </div>
 
-            <div ">
+            <div>
                 <img src=" ./images/rose.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2"
-                alt="Best Seller 2">
+                    alt="Best Seller 2">
                 <h2 class="text-xl font-medium">Rose Plant</h2>
                 <p class="text-gray-600">$29.99</p>
             </div>
@@ -137,52 +157,55 @@
         </div>
     </section>
 
-            <!--Customer Reviews-->
+    <!--Customer Reviews-->
 
-            <section>
-                <h1 class="text-2xl font-bold mt-5 text-center">Customer Reviews</h1>
+    <section>
+        <h1 class="text-2xl font-bold mt-5 text-center">Customer Reviews</h1>
 
-                <div class="flex flex-col gap-5 justify-center text-white m-5">
-                    <div class=" bg-green-900 p-4">
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perspiciatis consequuntur numquam,eaque a, odio eius pariatur iure minima repellendus nulla, possimus nesciunt quas fugit magni necessitatibus voluptatum officiis molestias?"</p>
-                        <h2 class="text-lg font-medium mt-2 text-amber-300">John Doe</h2>
-                    </div>
+        <div class="flex flex-col gap-5 justify-center text-white m-5">
+            <div class=" bg-green-900 p-4">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perspiciatis consequuntur
+                    numquam,eaque a, odio eius pariatur iure minima repellendus nulla, possimus nesciunt quas fugit
+                    magni necessitatibus voluptatum officiis molestias?"</p>
+                <h2 class="text-lg font-medium mt-2 text-amber-300">John Doe</h2>
+            </div>
 
-                    <div class=" bg-green-900 p-4 ">
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perspiciatis consequuntur numquam,
-                            eaque a, odio eius pariatur iure minima repellendus nulla, possimus nesciunt quas fugit
-                            magni necessitatibus voluptatum officiis molestias?"</p>
-                        <h2 class="text-lg font-medium mt-2 text-amber-300">Jane Smith</h2>
-                    </div>
+            <div class=" bg-green-900 p-4 ">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perspiciatis consequuntur numquam,
+                    eaque a, odio eius pariatur iure minima repellendus nulla, possimus nesciunt quas fugit
+                    magni necessitatibus voluptatum officiis molestias?"</p>
+                <h2 class="text-lg font-medium mt-2 text-amber-300">Jane Smith</h2>
+            </div>
 
-                    <div class=" bg-green-900 p-4 ">
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perspiciatis consequuntur numquam,
-                            eaque a, odio eius pariatur iure minima repellendus nulla, possimus nesciunt quas fugit
-                            magni necessitatibus voluptatum officiis molestias?"</p>
-                        <h2 class="text-lg font-medium mt-2 text-amber-300">Alice Johnson</h2>
-                    </div>
-            </section>
+            <div class=" bg-green-900 p-4 ">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perspiciatis consequuntur numquam,
+                    eaque a, odio eius pariatur iure minima repellendus nulla, possimus nesciunt quas fugit
+                    magni necessitatibus voluptatum officiis molestias?"</p>
+                <h2 class="text-lg font-medium mt-2 text-amber-300">Alice Johnson</h2>
+            </div>
+    </section>
 
-            <!--Newsletter-->
+    <!--Newsletter-->
 
-            <section class="p-4 text-center">
-                <h1 class="text-2xl font-bold mb-4">Join our Newsletter</h1>
-                <p class="mb-4">Get the latest updates on new products and upcoming sales</p>
-                <input type="email" placeholder="Enter your email" class="border border-black p-2 m-3 rounded w-xl" >
-                <button class="bg-black text-white p-2 rounded underline hover:cursor-pointer hover:transform hover:-translate-y-2">Subscribe</button>
-            </section>
+    <section class="p-4 text-center">
+        <h1 class="text-2xl font-bold mb-4">Join our Newsletter</h1>
+        <p class="mb-4">Get the latest updates on new products and upcoming sales</p>
+        <input type="email" placeholder="Enter your email" class="border border-black p-2 m-3 rounded w-xl">
+        <button
+            class="bg-black text-white p-2 rounded underline hover:cursor-pointer hover:transform hover:-translate-y-2">Subscribe</button>
+    </section>
 
-            <!--Footer-->
+    <!--Footer-->
 
-            <section class="bg-green-100 p-4 flex flex-col gap-5">
-                <h1 class="text-4xl font-bold">GREENDEN</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, autem?</p>
-                <p class="text-gray-600">&copy; 2024 Greenden. All rights reserved.</p>
-            </section>
-
-
+    <section class="bg-green-100 p-4 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">GREENDEN</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, autem?</p>
+        <p class="text-gray-600">&copy; 2024 Greenden. All rights reserved.</p>
+    </section>
 
 
+
+    <script src="./index.js"></script>
 
 </body>
 
