@@ -1,41 +1,54 @@
 # Greenden-Tailwind
-Responsive Website using HTML & Tailwind CSS
+# 🌿 Greenden - Responsive Plant Store Website
 
-📌 Overview
+Greenden is a fully responsive plant e-commerce website developed using **HTML**, **Tailwind CSS**, and **JavaScript**. This project was created as part of a front-end development practice project to improve skills in responsive web design and DOM manipulation.
 
-This project is a fully responsive multi-page website built using HTML5 and Tailwind CSS.
-It features a modern UI design with clean layouts and reusable components.
+## ✨ Features
 
-The website includes essential pages like Home, Product, and Contact, making it a complete front-end project.
+* 📱 Fully Responsive Design
+* 🌿 Attractive Plant Store UI
+* 🏠 Home Page
+* 🛍️ Products Page
+* 📞 Contact Page
+* 🔍 Live Product Search Functionality
+* 📂 Product Filtering with JavaScript
+* ☰ Mobile Side Navigation Menu
+* ✨ Smooth Menu Transitions and Animations
 
-🚀 Features
-🏠 Home Page – Attractive landing section with featured content
-🛍️ Product Page – Display of products using responsive grid layout
-📞 Contact Page – Simple contact form for user interaction
-📱 Responsive Design – Works smoothly on mobile, tablet, and desktop
-🎨 Modern UI – Built using Tailwind CSS utility classes
-🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-HTML5
-Tailwind CSS
+* HTML5
+* Tailwind CSS
+* JavaScript (DOM Manipulation)
 
-📂 Project Structure
-project-folder/
-│── index.html
-│── product.html
-│── contact.html
-│──images
+## 📂 Project Structure
 
-🔗 Live Demo
-👉 https://suwin47.github.io/Greenden-Tailwind/
+* `index.html` – Home Page
+* `product.html` – Products Page
+* `contact.html` – Contact Page
+* `index.js` – Mobile Navigation Logic
+* `product.js` – Search and Filter Functionality
+* `contact.js` – Mobile Navigation Logic
 
-📌 Future Improvements
-🔍 Add product search & filtering
-✨ Add animations and transitions
-🧾 Backend integration for contact form
-🙌 Acknowledgements
-Tailwind CSS Documentation
-Inspiration from modern UI designs
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+* Responsive web design using Tailwind CSS
+* JavaScript event handling
+* DOM manipulation
+* Search and filtering functionality
+* Mobile navigation implementation
+* Git and GitHub workflow
+
+## 🚀 Live Demo
+
+( https://suwin47.github.io/Greenden-Tailwind/ )
+
+## 📌 Author
+
+Developed by Suvin S.
+
 
 👨‍💻 Author
 ---SUVIN S---
